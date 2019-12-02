@@ -1,0 +1,31 @@
+body {
+	background-image: url(poto.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: fixed;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+img {
+	width : 450px;
+	height : 300px;
+	margin: 30px;
+	
+	
+}
+
+img:hover {
+	transition: all 1s;
+	transform:  scale(1.2);
+	
+}
+
+p {
+	color: red;
+	text-align: center;
+}
